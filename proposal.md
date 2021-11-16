@@ -1,27 +1,27 @@
 # Community Software Analysis Proposal
 Please edit this file and push to your repository.
 
-## Software: *FiPy*
+## Software: *Krylov.jl*
 
-This is a finite-volume PDE solver for Python. It is maintained by the Materials Science and Engineering Division (MSED) and Center for Theoretical and Computational Materials Science (CTCMS) in the Material Measurement Laboratory (MML) at the National Institute of Standards and Technology (NIST). 
+This is part of a Julia package used for nonlinear optimization. The Kyrlov.jl library focuses on implementing some of the most common Krylov methods.
 
 ### Stats
 
 | Description | Your answer |
 |---------|-----------|
-| Repository URL |  https://github.com/usnistgov/fipy  |
-| Main/documentation website |  https://www.ctcms.nist.gov/fipy/index.html  |
-| Year project was started |  2003  |
-| Number of contributors in the past year | 2 |
-| Number of contributors in the lifetime of the project | 24 |
+| Repository URL |  https://github.com/JuliaSmoothOptimizers/Krylov.jl  |
+| Main/documentation website |  https://juliasmoothoptimizers.github.io/  |
+| Year project was started |  March 2015  |
+| Number of contributors in the past year | 13 |
+| Number of contributors in the lifetime of the project | 16 |
 | Number of distinct affiliations | >10 |
-| Where do development discussions take place? | A combination of Github Issues and a mailing list  |
-| Typical number of emails/comments per week? | 3-4 emails/week (one main email with a few replies) |
+| Where do development discussions take place? | A combination of Github Issues and a slack channel  |
+| Typical number of emails/comments per week? | about 1 - 2 issues per week with about 3 comments added on |
 | Typical number of commits per week? | 1-3 |
-| Typical commit size | about 10-30 insertions/deletions per commit |
+| Typical commit size | about 30 insertions/deletions per commit |
 | How does the project accept contributions? | pull requests   |
 | Does the project have an automated test suite? | yes |
-| Does the project use continuous integration? | yes |
+| Does the project use continuous integration? | no |
 | Are any legal/licensing steps required to contribute? | no |
 
 ### Install and run
@@ -36,11 +36,7 @@ encountered a problem.
 
 ### Notes/concerns/risks
 
-I'm a little concerned that the repository is not active enough. Although it seems like 
-several people who aren't affiliated with NIST have contributed over the years, the most 
-recent commits have all been from folks affiliated with the MML. However, issues are 
-well documented and there is a mailing list/ other information about how to contribute 
-to the project.
+Just a note on the copyright: This repository has an MPL 2.0 license, which is the Mozilla Public License.
 
 #### Note on copyright
 Students retain copyright on any work done in completion of a CU
