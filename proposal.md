@@ -1,48 +1,42 @@
 # Community Software Analysis Proposal
 Please edit this file and push to your repository.
 
-## Software: *NAME_OF_PACKAGE_HERE*
+## Software: *Krylov.jl*
 
-*Write a paragraph describing what the software does and who its
-primary audience is.*
+This is part of a Julia package used for nonlinear optimization. The Kyrlov.jl library focuses on implementing some of the most common Krylov methods.
 
 ### Stats
 
 | Description | Your answer |
 |---------|-----------|
-| Repository URL |    |
-| Main/documentation website |    |
-| Year project was started |   |
-| Number of contributors in the past year | `git shortlog -se --since=2020-10-01` may be useful |
-| Number of contributors in the lifetime of the project |   |
-| Number of distinct affiliations | 1, 2-5, 5-10, >10 |
-| Where do development discussions take place? | e.g., GitHub/GitLab issues, mailing list, Slack, etc.  |
-| Typical number of emails/comments per week? |   |
-| Typical number of commits per week? |  |
-| Typical commit size | `git log --shortstat` may be useful |
-| How does the project accept contributions? | e.g., pull requests, patches on mailing lists   |
-| Does the project have an automated test suite? | yes/no |
-| Does the project use continuous integration? | yes/no |
-| Are any legal/licensing steps required to contribute? | no or explain below |
+| Repository URL |  https://github.com/JuliaSmoothOptimizers/Krylov.jl  |
+| Main/documentation website |  https://juliasmoothoptimizers.github.io/  |
+| Year project was started |  March 2015  |
+| Number of contributors in the past year | 13 |
+| Number of contributors in the lifetime of the project | 16 |
+| Number of distinct affiliations | >10 |
+| Where do development discussions take place? | A combination of Github Issues and a slack channel  |
+| Typical number of emails/comments per week? | about 1 - 2 issues per week with about 3 comments added on |
+| Typical number of commits per week? | 1-3 |
+| Typical commit size | about 30 insertions/deletions per commit |
+| How does the project accept contributions? | pull requests   |
+| Does the project have an automated test suite? | yes |
+| Does the project use continuous integration? | no |
+| Are any legal/licensing steps required to contribute? | no |
 
 ### Install and run
 
 Check the following boxes when complete or add a note below if you
 encountered a problem.
 
-- [ ] I have installed the software
-- [ ] I have run at least one example
-- [ ] I have run the test suite
-- [ ] The test suite passes
+- [x] I have installed the software
+- [x] I have run at least one example
+- [x] I have run the test suite
+- [x] The test suite passes
 
 ### Notes/concerns/risks
 
-Please comment on any anomalies or known risks to following this
-project, if you were unable to answer any questions above, or
-otherwise have concerns about the appropriateness of the software.  If
-the project requires a contributor license agreement or other
-procedural steps, please explain here.  "None at this time" is
-acceptable for this question.
+Just a note on the copyright: This repository has an MPL 2.0 license, which is the Mozilla Public License.
 
 #### Note on copyright
 Students retain copyright on any work done in completion of a CU
